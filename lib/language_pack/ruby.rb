@@ -253,7 +253,7 @@ ERROR
   # default set of binaries to install
   # @return [Array] resulting list
   def binaries
-    #add_node_js_binary
+    return []
   end
 
   # vendors binaries into the slug
